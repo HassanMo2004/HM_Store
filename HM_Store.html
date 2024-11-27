@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
    
 <style>
- 
-       
+
          body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -195,8 +194,8 @@
         header nav a {
             color: white;
             text-decoration: none;
-            font-size: 1.5em;
-            margin: 0 1rem;
+            font-size: 1.4em;
+            margin: 0.5rem;
             cursor: pointer;
             transition: color 0.3s ease;
             display: inline-flex;
@@ -471,16 +470,23 @@ top: 350px;
 top: 350px;
 }
 
+
+
+
+
+
     </style>
 </head>
 <body>
 <img src='https://i.postimg.cc/wvJFmw0r/Designer-7.jpg' border='0'alt=" width="90" height="90" >
 </i></h1>
-        <nav>
-           <a onclick="showSection('home')"><i class="fas fa-home"></i> Home</a>
+       <nav>
+            <a onclick="showSection('home')"><i class="fas fa-home"></i> Home</a>
             <a onclick="showSection('men')"><i class="fas fa-male"></i> Men’s Clothing</a>
             <a onclick="showSection('women')"><i class="fas fa-female"></i> Women’s Clothing</a>
             <a onclick="showSection('kids')"><i class="fas fa-child"></i> Kids’ Clothing</a>
+            <a onclick="showSection('contact')"><i class="fas fa-phone"></i> Contact Us</a>
+            <a onclick="showSection('about')"><i class="fas fa-info-circle"></i> About Us</a>
 </nav>
         <div class="cart" onclick="showCart()">
             <i class="fas fa-shopping-cart"></i> <span class="count" id="cart-count">0</span>
@@ -1043,7 +1049,78 @@ top: 350px;
 
 </section>
 
-    <section id="cart">
+
+<section id="contact" style="padding: 40px; background: linear-gradient(135deg, #f4f4f9, #ffffff); border-radius: 15px; box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); max-width: 900px; margin: 50px auto; transition: all 0.3s ease;">
+    <h1 style="text-align: center; font-size: 2.5rem; color: #333; margin-bottom: 30px; font-weight: bold; text-transform: uppercase;">Contact Us</h1>
+    <div style="display: flex; align-items: center; gap: 30px; flex-wrap: wrap;">
+        <!-- أيقونة -->
+        <div style="flex: 1; text-align: center;">
+            <img src='https://i.postimg.cc/wvJFmw0r/Designer-7.jpg' border='0'" alt="Contact Icon" 
+                 style="width: 190px; height: 190px; margin-bottom: 20px; border-radius: 50%; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); transition: transform 0.3s ease;">
+        </div>
+        <!-- النصوص -->
+        <div style="flex: 2; color: #555; font-size: 1.2rem;">
+            <p style="margin-bottom: 20px; display: flex; align-items: center; font-size: 1.1rem;">
+                <i class="fas fa-envelope" style="color: #007BFF; margin-right: 15px; font-size: 1.5rem; transition: color 0.3s ease;"></i>
+                <strong>Email:</strong> <span style="color: #333;">support@example.com</span>
+            </p>
+            <p style="margin-bottom: 20px; display: flex; align-items: center; font-size: 1.1rem;">
+                <i class="fas fa-phone" style="color: #28A745; margin-right: 15px; font-size: 1.5rem; transition: color 0.3s ease;"></i>
+                <strong>Phone:</strong> <span style="color: #333;">+123 456 7890</span>
+            </p>
+            <p style="display: flex; align-items: center; font-size: 1.1rem;">
+                <i class="fas fa-map-marker-alt" style="color: #DC3545; margin-right: 15px; font-size: 1.5rem; transition: color 0.3s ease;"></i>
+                <strong>Address:</strong> <span style="color: #333;">123 Fashion Street, New York, NY</span>
+            </p>
+        </div>
+    </div>
+
+</section>
+
+<section id="about">
+    <h1 style="text-align: center; font-size: 2.5rem; color: #333; margin-bottom: 40px;">About Us</h1>
+    <div style="display: flex; align-items: center; justify-content: center; margin-top: 20px; 
+                background: #f4f4f9; border-radius: 15px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+                padding: 20px; max-width: 900px; margin-left: auto; margin-right: auto;">
+        
+        <!-- الصورة -->
+        <div style="flex: 1; text-align: center; padding-right: 20px;">
+            <img src="https://i.postimg.cc/9XyGBwL3/IMG-20240203-WA0031.jpg' border='0'" alt="Employee Image" 
+                 style="width: 140px; height: 190px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+        </div>
+        
+        <!-- النص -->
+        <div style="flex: 2; padding-left: 20px; text-align: left;">
+            <!-- اسم الموظف -->
+            <h2 style="font-size: 1.8rem; color: #333; margin-bottom: 10px; font-family: 'Arial', sans-serif;">Hassan Mohamed Hassan</h2>
+            <!-- ID الموظف -->
+            <p style="font-size: 1.1rem; color: #777; margin-bottom: 10px; font-family: 'Arial', sans-serif;"><strong>ID:</strong> 2301088</p>
+            <!-- رقم الهاتف -->
+            <p style="font-size: 1.1rem; color: #777; margin-bottom: 10px; font-family: 'Arial', sans-serif;"><strong>Phone:</strong> +201065777168</p>
+          
+            <!-- وصف قصير -->
+            <p style="font-size: 1rem; line-height: 1.6; color: #666; font-family: 'Arial', sans-serif;">
+               A software engineer is a professional who develops and designs software systems using advanced technologies. They rely on their problem-solving and analytical skills to create applications and programs that meet user needs. With the ability to work within multidisciplinary teams, they utilize various programming tools to improve efficiency and performance. They combine logical thinking and technical creativity to deliver innovative solutions in the ever-evolving field of software development.
+            </p>
+            <!-- روابط التواصل الاجتماعي -->
+            <div style="margin-top: 20px;">
+                <a href="https://www.linkedin.com/in/www.linkedin.com/in/hassan-mohamed-503a89316" target="_blank" style="text-decoration: none; margin-right: 15px;">
+                    <i class="fab fa-linkedin" style="font-size: 1.5rem; color: #0077b5;"></i>
+                </a>
+                <a href="https://twitter.com/janesmith" target="_blank" style="text-decoration: none; margin-right: 15px;">
+                    <i class="fab fa-twitter" style="font-size: 1.5rem; color: #1DA1F2;"></i>
+                </a>
+                <a href="mailto:jane.smith@example.com" style="text-decoration: none;">
+                    <i class="fas fa-envelope" style="font-size: 1.5rem; color: #D44638;"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    
+<section id="cart">
         <h2><i class="fas fa-shopping-cart"></i> Add to cart</h2>
         <ul id="cart-items" class="cart-items"></ul>
         <div>
@@ -1070,6 +1147,42 @@ top: 350px;
 
     <script>
  
+
+
+ // تأثير تحريك الأيقونات عند التمرير
+    document.querySelectorAll('.fas').forEach(icon => {
+        icon.addEventListener('mouseenter', () => {
+            icon.style.transform = 'scale(1.2)';
+            icon.style.transition = 'transform 0.3s ease';
+        });
+        icon.addEventListener('mouseleave', () => {
+            icon.style.transform = 'scale(1)';
+        });
+    });
+
+    // تأثير تكبير الصورة عند المرور عليها
+    const image = document.querySelector('img');
+    image.addEventListener('mouseenter', () => {
+        image.style.transform = 'scale(1.1)';
+    });
+    image.addEventListener('mouseleave', () => {
+        image.style.transform = 'scale(1)';
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  // النصوص التي سيتم عرضها
         const offers = [
