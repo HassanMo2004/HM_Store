@@ -8,242 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
    
 <style>
-   body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            direction: rtl;
-        }
-        .container {
-            text-align: center;
-        }
-        .button {
-            padding: 15px 30px;
-            margin-top: 20px;
-            font-size: 18px;
-            background-color: #0A1F33;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: #0A1F33;
-        }
-        .form-container {
-            width: 400px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-            display: none;
-        }
-        .form-container h2 {
-            text-align: center;
-        }
-        .form-container label {
-            display: block;
-            margin-bottom: 10px;
-        }
-        .form-container input, .form-container select {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .form-container button {
-            width: 100%;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .form-container button:hover {
-            background-color: #0A1F33;
-        }
-        
-        .product-list {
-            margin-top: 20px;
-            text-align: left;
-        }
-        .product-item {
-            border: 1px solid #0A1F33;
-            padding: 10px;
-            margin-bottom: 10px;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
-        .product-item img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            margin-right: 10px;
-            float: left;
-        }
-        .product-item h3 {
-            margin: 0;
-        }    
 
-
-
- body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            direction: rtl;
-        }
-        .container {
-            text-align: center;
-        }
-        .form-container {
-            width: 400px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
-        .form-container h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .form-container label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        .form-container input {
-            width: 100%;
-            padding: 8px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-        .form-container button {
-            width: 100%;
-            padding: 10px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        .form-container button:hover {
-            background-color: #0A1F33;
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-
-        /* التأكد من أن الأيقونة العائمة فوق جميع العناصر */
-        .floating-container {
-            position: fixed;
-            bottom: 50px;
-            right: 50px;
-            display: flex;
-            flex-direction: column-reverse;
-            align-items: flex-end;
-            z-index: 9999; /* التأكد من أن الأيقونة فوق كل شيء */
-        }
-
-        .floating-btn {
-            background-color:#0A1F33;
-            color: white;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 30px;
-            cursor: pointer;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: transform 0.3s ease;
-            z-index: 10000; /* الأيقونة نفسها فوق كل شيء */
-        }
-
-        .floating-btn:hover {
-            transform: scale(1.1);
-        }
-
-        .menu {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 10px;
-            transform: translateY(30px);
-            opacity: 0;
-            transition: transform 0.5s ease, opacity 0.5s ease;
-            z-index: 9998; /* قائمة الأقسام ستكون تحت الأيقونة العائمة */
-        }
-
-        .menu-item {
-            background-color: #0A1F33;
-            color: white;
-            padding: 10px 20px;
-            margin: 5px 0;
-            border-radius: 8px;
-            text-align: center;
-            cursor: pointer;
-            transition: background-color 0.3s ease;
-        }
-
-        .menu-item:hover {
-            background-color: #0A1F33;
-        }
-
-        .menu.show {
-            transform: translateY(0);
-            opacity: 1;
-        }
-
-        .menu-item:nth-child(1) {
-            transition-delay: 0s;
-        }
-
-        .menu-item:nth-child(2) {
-            transition-delay: 0.1s;
-        }
-
-        .menu-item:nth-child(3) {
-            transition-delay: 0.2s;
-        }
-
-        .menu-item:nth-child(4) {
-            transition-delay: 0.3s;
-        }
-
-
-
-
-
-
-body {
+         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
@@ -629,35 +395,11 @@ body {
 
 <body>
 
- <div class="floating-container">
-        <div class="floating-btn" onclick="toggleMenu()">
-            <span>+</span>
-        </div>
-        <div class="menu">
-     
-  <div onclick="showSection('add-product')"><div class="menu-item"></i> Add Product</div>
-  </div>
- <div onclick="showSection('edit-product')"><div class="menu-item"></i> Edit Product</div>
-    </div>
- <div onclick="showSection('delete-product')"><div class="menu-item"></i>Delete Product</div>
-       </div>       
- <div onclick="showSection('search-product')"><div class="menu-item"></i>Search</div>
- </div>
- <div onclick="showSection('home')"><div class="menu-item"></i>Back</div>
-    
-  
-      
-         
-          </div>
-            </div>
- </div>
+<body>
 
-</div>
-   
- </header>
   
-  <body>
- </header>
+    </header>
+
      <!-- بانر العروض -->
     <div class="offer-banner" id="offerBanner">Enjoy a discount of up to 50% when you place your first order on the site</div>
 
@@ -730,7 +472,7 @@ top: 350px;
 
 
 
- 
+
 
 
     </style>
@@ -1305,19 +1047,6 @@ top: 350px;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 </section>
 
 
@@ -1387,8 +1116,6 @@ top: 350px;
 </section>
 
 
-
-
     
 <section id="cart">
         <h2><i class="fas fa-shopping-cart"></i> Add to cart</h2>
@@ -1415,177 +1142,8 @@ top: 350px;
 
   
 
-
-<!-- صفحة تعديل منتج -->
-<div id="edit-product" class="form-container">
-    <h2>Edit product</h2>
-    <form id="edit-product-form">
-        <label for="productName">Product Name</label>
-        <input type="text" id="productNameEdit" name="productNameEdit" placeholder="Enter product name" required>
-
-        <label for="productCode">Product Code</label>
-        <input type="text" id="productCodeEdit" name="productCodeEdit" placeholder="Enter product code" required>
-
-        <label for="productType">Product Type</label>
-        <input type="text" id="productTypeEdit" name="productTypeEdit" placeholder="Enter product type" required>
-
-        <label for="productPrice">Product price</label>
-        <input type="number" id="productPriceEdit" name="productPriceEdit" placeholder="Enter product price" required>
-
-        <label for="productImage">Product Image</label>
-        <input type="file" id="productImageEdit" name="productImageEdit" accept="image/*">
-
-        <button type="button" onclick="saveChanges()">Save changes</button>
-    </form>
-</div>
-
-
-
-</section>
-
-
-
-
-
-
-
-
-<!-- صفحة إضافة منتج -->
-<div id="add-product" class="form-container">
-    <h2>Add product</h2>
-    <form id="add-product-form">
-        <label for="productName">Product Name</label>
-        <input type="text" id="productName" name="productName" required>
-
-        <label for="productCode">Product Code</label>
-        <input type="text" id="productCode" name="productCode" required>
-
-        <label for="productType">Product Type</label>
-        <input type="text" id="productType" name="productType" required>
-
-        <label for="productPrice">Product Price</label>
-        <input type="number" id="productPrice" name="productPrice" required>
-
-        <label for="productImage">Product Image</label>
-        <input type="file" id="productImage" name="productImage" accept="image/*" required>
-
-        <button type="button" onclick="addProduct()">Add Product</button>
-    </form>
-</div>
- </section>
-
-
-
-
-
-
-
     <script>
- function goBackToHome() {
-            // إخفاء صفحة إضافة المنتج وإظهار الصفحة الرئيسية
-            document.getElementById("sectionPage").style.display = "none";
-            document.getElementById("homePage").style.display = "allow";
-        }
-
-function goToSection() {
-            document.getElementById("homePage").style.display = "none";
-            document.getElementById("sectionPage").style.display = "allow";
-        }
-
-        
-
-        // دالة لإضافة منتج
-        function addProduct() {
-            const name = document.getElementById("productName").value;
-            const code = document.getElementById("productCode").value;
-            const type = document.getElementById("productType").value;
-            const price = document.getElementById("productPrice").value;
-            const category = document.getElementById("category").value;
-            const imageFile = document.getElementById("productImage").files[0];
-
-            if (name && code && type && price && category && imageFile) {
-                
-                // إضافة صورة للمنتج
-                const imageUrl = URL.createObjectURL(imageFile);
-                const imageElement = document.createElement("img");
-                imageElement.src = imageUrl;
-                productItem.appendChild(imageElement);
-
-                // إضافة بيانات المنتج
-                const productDetails = document.createElement("div");
-                productDetails.innerHTML = `
-                    <h3>${name}</h3>
-                    <p><strong>Product Code:</strong> ${code}</p>
-                    <p><strong>Product Type:</strong> ${type}</p>
-                    <p><strong>the price:</strong> ${price} pound</p>
-                    <p><strong>Section:</strong> ${category}</p>
-                `;
-                productItem.appendChild(productDetails);
-
-              
-
-                // مسح الحقول بعد إضافة المنتج
-                document.getElementById("productForm").reset();
-                goBackToHome(); // العودة للصفحة الرئيسية بعد إضافة المنتج
-            } else {
-                alert("Please complete all fields..");
-            }
-        }
-
-
-// حفظ التعديلات على المنتج
-function saveChanges() {
-    const name = document.getElementById('productNameEdit').value;
-    const code = document.getElementById('productCodeEdit').value;
-    const type = document.getElementById('productTypeEdit').value;
-    const price = document.getElementById('productPriceEdit').value;
-    const imageFile = document.getElementById('productImageEdit').files[0];
-
-    if (!name || !code || !type || !price) {
-        alert("يرجى ملء جميع الحقول!");
-        return;
-    }
-
-    const updatedProduct = {
-        name,
-        code,
-        type,
-        price,
-        image: imageFile ? URL.createObjectURL(imageFile) : null
-    };
-
-    console.log("تم تحديث المنتج:", updatedProduct);
-
-    // مسح الحقول بعد التحديث
-    document.getElementById('edit-product-form').reset();
-    alert("تم حفظ التعديلات بنجاح!");
-}
-
-
-
-
-
-
-
-
-
-
-
-
-function toggleMenu() {
-            const menu = document.querySelector('.menu');
-            menu.classList.toggle('show');
-        }
-
-
-
-
-
-
-
-
-
-
+ 
 
 
  // تأثير تحريك الأيقونات عند التمرير
